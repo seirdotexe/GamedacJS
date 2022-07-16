@@ -11,7 +11,7 @@ if (looped.isInitialized()) {
     .find(({ name }) => name === 'Line 1 (Virtual Audio Cable)');
 
   const DACMicrophone = looped.getDevices(LoopedBack.DEVICE_CAPTURE)
-    .find(({ name }) => name === 'Microphone (GameDAC Chat)');
+    .find(({ name }) => name === 'Desktop Microphone (RØDE NT-USB Mini)'); //? Microphone (GameDAC Chat)
   const DACSpeaker = looped.getDevices(LoopedBack.DEVICE_RENDER)
     .find(({ name }) => name === 'Speakers (GameDAC Game)');
 
